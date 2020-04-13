@@ -56,7 +56,13 @@ table {
 
 /* YOUR CODE HERE */
 
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #d33a2c;
+}
 
-body {
-  background-color: red;
+nav a {
+  display: flex;
+  flex-direction: column;
 }
