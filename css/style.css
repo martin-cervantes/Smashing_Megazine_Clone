@@ -49,13 +49,73 @@ ul {
 nav.navbar {
   display: flex;
   flex-direction: row;
-  height: 150px;
+  height: 180px;
   background-color: #888;
+}
+
+.logo-area {
+  width:230px;
 }
 
 nav a {
   display: flex;
+  padding-top: 25px;
   flex-direction: column;
+  width:170px;
+  height: 150px;
+  text-decoration: none;
+
+}
+
+nav span {
+ color:#fff;
+ display: block;
+ margin: 3px;
+}
+
+nav .bold-text {
+  text-align: center;
+ font-weight: bolder;
+ font-size: 1.2em;
+}
+
+.tiny-text {
+  text-align: center;
+  font-weight: normal;
+  font-size: smaller;
+}
+
+nav a img {
+height: 40px;;
+}
+
+.white-border {
+  border:solid 5px #fff;
+  border-radius: 3px;
+  height: 45px;
+  margin: 50px 0 20px;
+}
+
+ .fa-search{
+   margin: 5px;
+  display: inline;
+  color:#fff;
+  font-size: 1.2em;
+  
+
+}
+
+ .search-text{
+  display: inline;
+  color:#fff;
+  font-size: 1.3em;
+}
+
+.white-border p{
+  text-align: left;
+  padding: 2px  20px 4px;
+  color:#fff;
+  font-size: 1.2em;
 }
 
 .first_flex {
