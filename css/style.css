@@ -12,8 +12,6 @@ h2,
 p,
 a,
 img,
-ul,
-li,
 footer,
 header,
 nav,
@@ -39,11 +37,6 @@ body {
   line-height: 1;
 }
 
-ol,
-ul {
-  list-style: none;
-}
-
 /* colors */
 
 :root {
@@ -59,30 +52,30 @@ nav {
   background-color: var(--gray0);
   display: flex;
   flex-direction: row;
-  height: 11em;
+  height: 11rem;
 }
 
 nav a {
   display: flex;
   flex-direction: column;
-  height: 9em;
-  padding-top: 1.5em;
+  height: 9rem;
+  padding-top: 1.5rem;
   text-decoration: none;
-  width: 11em;
+  width: 11rem;
 }
 
 nav a .logo {
-  height: 5em;
+  height: 5rem;
 }
 
 nav span {
   color: white;
   display: block;
-  margin: 0.2em;
+  margin: 0.2rem;
 }
 
 nav .bold-text {
-  font-size: 1.65em;
+  font-size: 1.65rem;
   font-weight: bolder;
   text-align: center;
 }
@@ -94,22 +87,22 @@ nav .bold-text {
 }
 
 nav a img {
-  height: 3em;
+  height: 3rem;
   filter: grayscale(90%);
 }
 
 .topics_button {
   color: white;
-  border: 0.2em solid white;
-  border-radius: 0.4em;
+  border: 0.2rem solid white;
+  border-radius: 0.4rem;
   display: inline;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: bolder;
-  height: 1em;
-  padding: 0.6em 0;
+  height: 1rem;
+  padding: 0.6rem 0;
   text-align: center;
-  width: 6em;
-  margin: 3em;
+  width: 6rem;
+  margin: 3rem;
 }
 
 /* articles */
@@ -274,22 +267,112 @@ nav a img {
   margin: 2px;
 }
 
+/* checklist and newslatter */
+
+.checklist_newslatter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.checklist {
+  width: 30%;
+}
+
+.checklist h2 {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+}
+
+.checklist li {
+  color: var(--gray1);
+  padding: 0.5rem;
+}
+
+.checklist a {
+  color: var(--gray0);
+  font-size: 1.3rem;
+}
+
+.newslatter {
+  background-color: var(--gray2);
+  border-radius: 1rem;
+  padding: 2.3rem 8rem;
+  width: 50%;
+}
+
+.newslatter h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.newslatter p {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.newslatter img {
+  margin: 2rem auto;
+  width: 28rem;
+}
+
+.newslatter form {
+  display: flex;
+  justify-content: center;
+}
+
+.newslatter input {
+  border: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+  color: black;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+  padding: 1rem 3rem 1rem 1rem;
+}
+
+.newslatter a {
+  background-color: white;
+  border-left: 1px solid var(--gray0);
+  border-radius: 0 0.5rem 0.5rem 0;
+  color: var(--gray2);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem 1rem 1rem;
+  text-decoration: none;
+}
+
+.newslatter p:nth-child(5),
+.newslatter p:nth-child(6) {
+  color: white;
+  font-size: 1rem;
+  line-height: normal;
+  padding: 0.2rem;
+}
+
 /* See all articles */
 
 .all_articles {
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 22em;
+  height: 20rem;
   width: 100%;
 }
 
 .all_articles a {
-  border-bottom: 0.5em solid var(--gray0);
+  border-bottom: 0.5rem solid var(--gray0);
   color: var(--gray0);
-  font-size: 0.7em;
-  letter-spacing: 0.2em;
-  padding: 1.25em 0 0.5em;
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+  padding: 1.25rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -299,28 +382,28 @@ nav a img {
 }
 
 .all_articles a:active {
-  outline: 0.4em dotted var(--gray1);
+  outline: 0.4rem dotted var(--gray1);
 }
 
 /* footer */
 
 footer {
   background-color: var(--gray0);
-  padding-bottom: 4em;
+  padding-bottom: 4.5rem;
 }
 
-footer h2 {
+footer h3 {
   color: white;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 1em;
-  padding-top: 4em;
+  padding-bottom: 1.5rem;
+  padding-top: 4rem;
 }
 
 footer p {
   color: white;
-  font-size: 0.8em;
-  line-height: 2em;
+  font-size: 1rem;
+  line-height: 2rem;
   text-align: center;
 }
 
@@ -331,20 +414,20 @@ footer a {
 }
 
 .list {
-  font-size: 1.3em;
-  line-height: 2em;
+  font-size: 1.7rem;
+  line-height: 2rem;
   margin: 0 auto;
-  padding-bottom: 3em;
+  padding-bottom: 3rem;
   text-align: center;
   width: 90%;
 }
 
 .list span {
   color: white;
-  font-size: 3em;
-  padding: 0 0.1em;
+  font-size: 3rem;
+  padding: 0 0.1rem;
   position: relative;
-  top: -0.05em;
+  top: -0.05rem;
 }
 
 .list .li_anchor:hover {
@@ -353,7 +436,7 @@ footer a {
 
 .li {
   display: inline-block;
-  padding: 0 0.1em;
+  padding: 0 0.1rem;
 }
 
 .bottom {
@@ -366,12 +449,12 @@ footer a {
 
 .bird {
   filter: grayscale(80%);
-  width: 11em;
+  width: 11rem;
 }
 
 .cat {
   filter: grayscale(100%);
-  width: 14em;
+  width: 14rem;
 }
 
 .anchor {
@@ -379,19 +462,19 @@ footer a {
 }
 
 .us {
-  padding-top: 2em;
+  padding-top: 2rem;
 }
 
 .us a {
-  padding: 0 0.5em;
+  padding: 0 0.5rem;
 }
 
 .last {
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 .last a {
-  padding: 0 0.5em;
+  padding: 0 0.5rem;
 }
 
 .clear {
