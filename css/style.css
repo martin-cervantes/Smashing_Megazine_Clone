@@ -429,17 +429,6 @@ font-weight: bolder;
    width: 200px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.grid-item {
-  height: 350px;
-  border: solid 1px #fff;
-  background-color: #666;
-}
-
 .another-full-1 {
   background-color: #ccc;
   height: 300px;
@@ -463,6 +452,88 @@ font-weight: bolder;
   height: 500px;
   background-color: #888;
   margin: 2px;
+}
+
+/* persons */
+
+.person {
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+}
+
+.person div {
+  padding: 2rem;
+}
+
+.person h3 {
+  color: var(--gray1);
+  font-size: 1.2rem;
+  padding: 0;
+  text-transform: uppercase;
+  margin: 1rem 0 2rem;
+}
+
+.person p {
+  color: var(--gray1);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+  width: 50rem;
+}
+
+.person img {
+  border: 0.5em solid var(--gray1);
+  border-radius: 0.5rem;
+  filter: grayscale(100%);
+  margin: 2rem;
+}
+
+.grid-container {
+  background-color: var(--gray2);
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 3rem;
+}
+
+.grid-item {
+  background-color: var(--gray2);
+  display: flex;
+  flex-direction: row;
+  height: 18rem;
+  padding: 1rem;
+}
+
+.grid-item div {
+  padding: 1.5rem;
+}
+
+.grid-item h3 {
+  color: var(--gray1);
+  font-size: 1.2rem;
+  padding: 0;
+  margin: 1rem 0 0.8rem;
+}
+
+.grid-item h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0 0 1.2rem;
+}
+
+.grid-item p {
+  color: white;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.grid-item img {
+  border: 0.4em solid var(--gray1);
+  border-radius: 0.5rem;
+  filter: grayscale(100%);
+  height: 5rem;
+  margin-top: 2rem;
 }
 
 /* book */
