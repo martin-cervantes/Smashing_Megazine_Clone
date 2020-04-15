@@ -117,8 +117,62 @@ height: 40px;;
   color:#fff;
   font-size: 1.2em;
 }
+ 
+.banner-wrap {
+  position: relative;
+  margin-top: 0;
+}
+
+.banner {
+  background: none;
+  width:100%;
+  position: absolute;
+  display: grid;
+  grid-template-columns:  auto auto;
+}
+
+.banner-inner {
+  text-align: center;
+  height: auto;
+  background:none;
+
+
+}
+
+.banner-inner-1 {
+
+  padding:30px;
+  display: inline-block;
+  
+}
+
+.banner-inner-2 {
+
+  margin: 20px;
+  padding:10px;
+}
+
+.banner-inner-1 div { 
+  width:370px;
+  float: right;
+}
+
+.banner-inner-1 span {
+  font-size: 3.0em;
+  color:#000;
+  background-color: #fff;
+ padding: 6px;
+}
+
+
+.seriously {
+  font-size: 1.8em;
+  color: #fff;
+
+}
 
 .first_flex {
+  color:#fff;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -126,16 +180,29 @@ height: 40px;;
   align-content: stretch;
 }
 
+.first_flex img {
+  width:60px;
+  border:solid 4px #fff;
+  border-radius: 4px;;
+}
+
+.tp-article div {
+ width:45%;
+ float: left;
+}
+
 .left-article {
+  padding-top: 200px;
   width: 50%;
   background-color: #666;
-  height: 400px;
+  height: 600px;
 }
 
 .right-article {
+  padding-top: 200px;
   width: 50%;
   background-color: #777;
-  height: 400px;
+  height: 600px;
 }
 
 .second_flex {
@@ -325,4 +392,8 @@ footer a {
 
 .last a {
   padding: 0 0.5em;
+}
+
+.clear {
+  clear:both;
 }
