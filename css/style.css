@@ -98,7 +98,6 @@ nav a img {
   display: inline;
   font-size: 1.2rem;
   font-weight: bolder;
-<<<<<<< HEAD
   height: 1rem;
   padding: 0.6rem 0;
   text-align: center;
@@ -107,13 +106,6 @@ nav a img {
 }
 
 /* articles */
-=======
-  height: 1em;
-  padding: 0.6em 0;
-  text-align: center;
-  width: 6em;
-  margin: 3em;
-}
 
 .headline-section {
   position: absolute;
@@ -200,7 +192,6 @@ font-weight: bolder;
   padding: 5px;
   display: inline-block;
 }
->>>>>>> 4f14427c91fa78e96bb98015d9c5b5ee4c999f3d
 
 .first_flex {
   color: #fff;
@@ -227,7 +218,7 @@ font-weight: bolder;
   padding-top: 200px;
   width: 50%;
   background-color: #666;
- 
+
 }
 
 .left-article article {
@@ -246,9 +237,9 @@ font-weight: bolder;
   padding-top: 200px;
   width: 50%;
   background-color: #777;
- 
+
 }
- 
+
 
 .left-article-2 {
   width: 50%;
@@ -265,7 +256,7 @@ font-weight: bolder;
 .triple-flex article {
   color: #fff;
   padding: 30px 10px 0 30px ;
-} 
+}
 
 .triple-flex h1 {
   font-weight: bolder;
@@ -273,7 +264,7 @@ font-weight: bolder;
   font-size: 1.8em;
   margin-bottom: 20px;
   margin-top: 5px;
-} 
+}
 
 .triple-flex {
   display: flex;
@@ -403,6 +394,40 @@ font-weight: bolder;
   margin: 2px;
 }
 
+/* book */
+
+.book {
+  background-color: var(--gray2);
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 5rem;
+}
+
+.book h3 {
+  color: var(--gray0);
+  font-size: 1.2rem;
+  padding: 0;
+  text-transform: uppercase;
+  margin: 2rem 0 0.5rem;
+}
+
+.book h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-decoration: underline;
+  margin-bottom: 2.5rem;
+}
+
+/* guides */
+
+.guides {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
 /* checklist and newslatter */
 
 .checklist_newslatter {
@@ -416,9 +441,16 @@ font-weight: bolder;
   width: 30%;
 }
 
+.checklist h3 {
+  color: var(--gray0);
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 2rem 0 0.5rem;
+}
+
 .checklist h2 {
   font-size: 1.8rem;
-  padding: 2rem 0;
+  padding: 0 0 1.2rem;
 }
 
 .checklist li {
@@ -495,15 +527,15 @@ font-weight: bolder;
 
 /* See all articles */
 
-.all_articles {
+.more {
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 20rem;
+  height: 16rem;
   width: 100%;
 }
 
-.all_articles a {
+.more a {
   border-bottom: 0.5rem solid var(--gray0);
   color: var(--gray0);
   font-size: 0.7rem;
@@ -513,11 +545,11 @@ font-weight: bolder;
   text-transform: uppercase;
 }
 
-.all_articles a:hover {
+.more a:hover {
   color: var(--gray1);
 }
 
-.all_articles a:active {
+.more a:active {
   outline: 0.4rem dotted var(--gray1);
 }
 
