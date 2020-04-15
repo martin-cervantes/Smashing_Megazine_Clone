@@ -427,41 +427,65 @@ font-weight: bolder;
    width: 200px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
+ .ethical-design {
+   padding: 40px;;
+   background-color: #a9a9a9;
+   color: #fff;
+ }
+
+ .ethical-design h3{
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
-.grid-item {
-  height: 350px;
-  border: solid 1px #fff;
-  background-color: #666;
+.ethical-design h1{
+  margin-top: 20px;
+  text-shadow: #000;
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.another-full-1 {
-  background-color: #ccc;
-  height: 300px;
+.book-learn-more {
+  border: none;
+  border-radius: 4px;
+  padding: 9px 8px;
+  display: block;
+  margin: auto;
+  font-size: 1.5em;
 }
 
-.another-full-2 {
-  background-color: rgb(241, 202, 202);
-  height: 300px;
+.ethical-design h2{
+  margin-top: 10px;
+  color: #fff;
+  text-shadow: #000;
+  text-align: center;
+  font-size: 2.7em;
+  font-weight: bold;
 }
 
-.guilds-flex {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-around;
-  align-content: stretch;
+.ethical-design h1{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 2.8em;
+  font-weight: bold;
 }
 
-.guilds-item {
-  width: 33.1%;
-  height: 500px;
-  background-color: #888;
-  margin: 2px;
+.ethical-design img{
+ display: block;
+ margin: 20px auto;
 }
+
+.ethical-design p{
+  margin-top: 20px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 1.5em;
+   line-height: 40px;
+ }
+ 
 
 /* footer ******/
 
