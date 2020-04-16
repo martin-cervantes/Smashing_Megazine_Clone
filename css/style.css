@@ -213,7 +213,7 @@ font-weight: bolder;
 .first_flex img {
   width:60px;
   border:solid 4px #fff;
-  border-radius: 4px;;
+  border-radius: 4px;
 }
 
 .tp-article div {
@@ -268,13 +268,14 @@ font-weight: bolder;
 .triple-flex h1, .my-double-flex h1 {
   text-decoration: underline;
   font-weight: bolder;
-  line-height: 32px;;
+  line-height: 32px;
   font-size: 1.8em;
   margin-bottom: 20px;
   margin-top: 5px;
 }
 
-.triple-flex strong,.my-double-flex strong{
+.triple-flex strong,
+.my-double-flex strong{
  text-decoration: underline;
 }
 
@@ -286,7 +287,8 @@ font-weight: bolder;
   align-content: stretch;
 }
 
-.triple-flex span,.my-double-flex span {
+.triple-flex span,
+.my-double-flex span {
   text-transform: uppercase;
   font-size: x-small;
   letter-spacing: 3px;
@@ -429,36 +431,65 @@ font-weight: bolder;
    width: 200px;
 }
 
- .ethical-design {
-   padding: 40px;;
-   background-color: #a9a9a9;
-   color: #fff;
- }
+.another-full-1 {
+  background-color: #ccc;
+  height: 300px;
+}
 
- .ethical-design h3{
-  padding: 0;
-  margin: 0;
-  text-align: center;
+.another-full-2 {
+  background-color: rgb(241, 202, 202);
+  height: 300px;
+}
+
+.guilds-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-content: stretch;
+}
+
+.guilds-item {
+  width: 33.1%;
+  height: 500px;
+  background-color: #888;
+  margin: 2px;
+}
+
+.ethical-design {
+  padding: 40px;
+  background-color: #a9a9a9;
+  color: #fff;
+}
+
+.ethical-design h3{
+ padding: 0;
+ margin: 0;
+ text-align: center;
 }
 
 .ethical-design h1{
-  margin-top: 20px;
-  text-shadow: #000;
-  text-align: center;
-  font-size: 2.3em;
-  font-weight: bold;
-  text-decoration: underline;
+ margin-top: 20px;
+ text-shadow: #000;
+ text-align: center;
+ font-size: 2.3em;
+ font-weight: bold;
+ text-decoration: underline;
 }
 
 .book-learn-more {
-  border: none;
-  border-radius: 4px;
-  padding: 9px 8px;
-  display: block;
-  margin: auto;
-  font-size: 1.5em;
+ border: none;
+ border-radius: 4px;
+ padding: 9px 8px;
+ display: block;
+ margin: auto;
+ font-size: 1.5em;
 }
- 
+.another-full-1 {
+ background-color: #ccc;
+ height: 300px;
+}
+
 .ethical-design h2{
   margin-top: 10px;
   color: #fff;
@@ -487,9 +518,7 @@ font-weight: bolder;
    font-size: 1.5em;
    line-height: 40px;
  }
- 
 
-/* footer ******/
 /* persons */
 
 .person {
@@ -847,5 +876,5 @@ footer a {
 }
 
 .clear {
-  clear:both;
+  clear: both;
 }
