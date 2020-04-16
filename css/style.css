@@ -457,11 +457,8 @@ font-weight: bolder;
   display: block;
   margin: auto;
   font-size: 1.5em;
-.another-full-1 {
-  background-color: #ccc;
-  height: 300px;
 }
-
+ 
 .ethical-design h2{
   margin-top: 10px;
   color: #fff;
@@ -474,7 +471,7 @@ font-weight: bolder;
 .ethical-design h1{
   margin-top: 20px;
   color: #fff;
-  font-size: 2.8em;
+  font-size: 3em;
   font-weight: bold;
 }
 
