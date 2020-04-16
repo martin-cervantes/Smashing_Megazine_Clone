@@ -885,3 +885,17 @@ footer a {
 .clear {
   clear: both;
 }
+
+.corected {
+  width: 30%;
+  padding: 25px;
+}
+
+.corected-pair {
+  width: 75%;
+}
+
+.corected-pair a {
+  color:#fff;
+  text-decoration: none;
+}
