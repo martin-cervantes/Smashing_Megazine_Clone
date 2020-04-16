@@ -122,6 +122,10 @@ nav a img {
   z-index: 1000;
 }
 
+.dummy {
+  visibility: hidden;
+}
+
 .header-inner-wrapper div {
  float: left;
  width: 33%;
@@ -137,6 +141,8 @@ font-weight: bolder;
 }
 
 .headline-icon {
+  display: flex;
+  justify-content: flex-end;
   padding: 40px 0px 0px;
 }
 
@@ -155,6 +161,7 @@ font-weight: bolder;
   border: solid 2px #fff;
   display: inline-block;
   padding: 10px;
+  height: 20px;
 }
 
 ._article_top {
