@@ -1,6 +1,7 @@
 # Project Name
 
-    Project brief description
+    In this project try to create a grayscale heat map of the website that indicates
+    which elements have the greatest weight in the visual hierarchy.
 
 ![screenshot](./screenshot.png)
 
@@ -13,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mcervantes71.github.io//index.html)
+[Live Demo Link](https://rawcdn.githack.com/mcervantes71/Smashing_Megazine_Clone/77af18f1276c0335a24c0fb066b1e09d135edc74/index.html)
 
 ## Getting Started
 
@@ -35,6 +36,13 @@
 - Github: [@mcervantes71](https://github.com/mcervantes71)
 - Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
 - Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
+
+👤 **Author2**
+
+- Gmail: [Gabriel Hilarion](mailto:gabrielhilarion@gmail.com)
+- Github: [@gabrie-lHilarion](https://github.com/gabrie-lHilarion)
+- Twitter: [@gabrielDeman](https://twitter.com/gabrielDeman)
+- Linkedin: [Gabriel Hilarion](https://www.linkedin.com/in/gabrielhilarion/)
 
 ## 🤝 Contributing
 
