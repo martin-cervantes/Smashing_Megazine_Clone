@@ -1,34 +1,35 @@
-# Project Name
+# Smashing Megazine Clone
 
     In this project we try to create a grayscale heat map of the website that indicates
     which elements have the greatest weight in the visual hierarchy.
 
 ![screenshot](./screenshot.png)
 
-    The design does not neccesarily need to be responsive. The main idea is to show the differnt elements and the arragement of the elements in the page.
+    The design does not neccesarily need to be responsive. The main idea is to show the differnt
+    elements and the arragement of the elements in the page.
 
-## Built With
+## :package: Built With
 
-    - Plain HTML5,
-    - Pure CSS3,
+    - Plain HTML5
+    - Pure CSS3
 
-## Live Demo
+## :mag: Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/mcervantes71/Smashing_Megazine_Clone/77af18f1276c0335a24c0fb066b1e09d135edc74/index.html)
 
-## Getting Started
+## :computer: Getting Started
 
-    To get a local copy up and running follow these simple example steps.
+    To get a local copy up and running follow these simple steps.
 
 ### Install
 
-    Download the repository
+    Download the repository.
 
 ### Usage
 
-    In any browser, open the index.html file
+    In any browser, open the index.html file.
 
-## Authors
+## :busts_in_silhouette: Authors
 
 👤 **Author1**
 
@@ -50,7 +51,7 @@
 
 Feel free to check the [issues page](../../issues).
 
-## Show your support
+## :star2: Show your support
 
     Give a ⭐️ if you like this project!
 
