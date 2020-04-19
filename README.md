@@ -1,11 +1,11 @@
 # Project Name
 
-    In this project try to create a grayscale heat map of the website that indicates
+    In this project we try to create a grayscale heat map of the website that indicates
     which elements have the greatest weight in the visual hierarchy.
 
 ![screenshot](./screenshot.png)
 
-    Additional description about the project and its features.
+    The design does not neccesarily need to be responsive. The main idea is to show the differnt elements and the arragement of the elements in the page.
 
 ## Built With
 
