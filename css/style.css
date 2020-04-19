@@ -760,24 +760,6 @@ nav a img {
   width: 100%;
 }
 
-.more a {
-  border-bottom: 0.5rem solid var(--gray0);
-  color: var(--gray0);
-  font-size: 0.7rem;
-  letter-spacing: 0.2rem;
-  padding: 1.25rem 0 0.5rem;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.more a:hover {
-  color: var(--gray1);
-}
-
-.more a:active {
-  outline: 0.4rem dotted var(--gray1);
-}
-
 /* footer */
 
 footer {
@@ -888,4 +870,22 @@ footer .anchor {
 .corected-pair a {
   color:#fff;
   text-decoration: none;
+}
+
+.more a {
+  border-bottom: 0.5rem solid var(--gray0);
+  color: var(--gray0);
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+  padding: 1.25rem 0 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.more a:hover {
+  color: var(--gray1);
+}
+
+.more a:active {
+  outline: 0.4rem dotted var(--gray1);
 }
