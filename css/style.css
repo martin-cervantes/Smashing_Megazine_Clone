@@ -375,6 +375,17 @@ nav a img {
   text-align: center;
 }
 
+.first-callout h3,
+.doubleinner-2 h3 {
+  color: white;
+  text-align: center;
+}
+
+.doubleinner-2 span a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .first-callout button,
 .doubleinner-2 button {
   border: none;
@@ -462,6 +473,15 @@ nav a img {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+.ethical-design h4 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  margin: 15px auto;
+  font-size: 2em;
 }
 
 .ethical-design h1 {
