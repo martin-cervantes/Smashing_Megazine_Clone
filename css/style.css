@@ -381,6 +381,49 @@ nav a img {
   text-align: center;
 }
 
+.book a {
+  background-color: white;
+  border-left: 1px solid #dcdcdc;
+  border-radius: 0.5rem;
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 1rem 2rem 1rem 1rem;
+  text-decoration: none;
+}
+
+.checklist a {
+  color: #dcdcdc;
+  font-size: 1.3rem;
+}
+
+.newslatter a {
+  background-color: white;
+  border-left: 1px solid #dcdcdc;
+  border-radius: 0 0.5rem 0.5rem 0;
+  color: #808080;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem 1rem 1rem;
+  text-decoration: none;
+}
+
+.corected-pair a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.more a {
+  border-bottom: 0.5rem solid #dcdcdc;
+  color: #dcdcdc;
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+  padding: 1.25rem 0 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .doubleinner-2 span a {
   color: #fff;
   text-decoration: none;
@@ -476,7 +519,6 @@ nav a img {
 }
 
 .ethical-design h4 {
-  margin: 0;
   padding: 0;
   text-align: center;
   color: #fff;
@@ -530,7 +572,6 @@ nav a img {
 .person {
   display: flex;
   flex-direction: row;
-  padding: 3rem;
 }
 
 .person div {
@@ -564,7 +605,6 @@ nav a img {
   background-color: #808080;
   display: grid;
   grid-template-columns: auto auto;
-  padding: 0 3rem;
 }
 
 .grid-item {
@@ -613,7 +653,7 @@ nav a img {
   background-color: #808080;
   display: flex;
   flex-direction: row;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 0;
 }
 
 .book h3 {
@@ -638,17 +678,6 @@ nav a img {
   line-height: 2rem;
   padding-bottom: 2rem;
   width: 50rem;
-}
-
-.book a {
-  background-color: white;
-  border-left: 1px solid #dcdcdc;
-  border-radius: 0.5rem;
-  color: #808080;
-  font-size: 1.4rem;
-  font-weight: 700;
-  padding: 1rem 2rem 1rem 1rem;
-  text-decoration: none;
 }
 
 .book img {
@@ -694,11 +723,6 @@ nav a img {
   padding: 0.5rem;
 }
 
-.checklist a {
-  color: #dcdcdc;
-  font-size: 1.3rem;
-}
-
 .newslatter {
   background-color: #808080;
   border-radius: 1rem;
@@ -739,18 +763,6 @@ nav a img {
   font-size: 0.9rem;
   margin-bottom: 2rem;
   padding: 1rem 3rem 1rem 1rem;
-}
-
-.newslatter a {
-  background-color: white;
-  border-left: 1px solid #dcdcdc;
-  border-radius: 0 0.5rem 0.5rem 0;
-  color: #808080;
-  font-size: 1.4rem;
-  font-weight: 700;
-  margin-bottom: 2rem;
-  padding: 1rem 2rem 1rem 1rem;
-  text-decoration: none;
 }
 
 .newslatter p:nth-child(5),
@@ -876,21 +888,6 @@ footer .anchor {
 
 .corected-pair {
   width: 75%;
-}
-
-.corected-pair a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.more a {
-  border-bottom: 0.5rem solid #dcdcdc;
-  color: #dcdcdc;
-  font-size: 0.7rem;
-  letter-spacing: 0.2rem;
-  padding: 1.25rem 0 0.5rem;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 .more a:hover {
