@@ -15,7 +15,7 @@
 
 ## :mag: Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mcervantes71/Smashing_Megazine_Clone/77af18f1276c0335a24c0fb066b1e09d135edc74/index.html)
+[Live Demo Link](https://mcervantes71.github.io/Smashing_Megazine_Clone/index.html)
 
 ## :computer: Getting Started
 
