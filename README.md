@@ -21,9 +21,16 @@
 
     To get a local copy up and running follow these simple steps.
 
-### Install
+### Installation process
 
-    Download the repository.
+    1) Download the repository.
+![download](./download.png)
+
+    2) Show in folder.
+![show_in_folder](./show_in_folder.png)
+
+    3) Extract all the files.
+![extract_all](./extract_all.png)
 
 ### Usage
 
