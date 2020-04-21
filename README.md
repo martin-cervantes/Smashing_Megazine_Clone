@@ -1,33 +1,35 @@
-# Project Name
+# Smashing Megazine Clone
 
-    Project brief description
+    In this project we try to create a grayscale heat map of the website that indicates
+    which elements have the greatest weight in the visual hierarchy.
 
 ![screenshot](./screenshot.png)
 
-    Additional description about the project and its features.
+    The design does not neccesarily need to be responsive. The main idea is to show the differnt
+    elements and the arragement of the elements in the page.
 
-## Built With
+## :package: Built With
 
-    - Plain HTML5,
-    - Pure CSS3,
+    - Plain HTML5
+    - Pure CSS3
 
-## Live Demo
+## :mag: Live Demo
 
-[Live Demo Link](https://mcervantes71.github.io//index.html)
+[Live Demo Link](https://rawcdn.githack.com/mcervantes71/Smashing_Megazine_Clone/77af18f1276c0335a24c0fb066b1e09d135edc74/index.html)
 
-## Getting Started
+## :computer: Getting Started
 
-    To get a local copy up and running follow these simple example steps.
+    To get a local copy up and running follow these simple steps.
 
 ### Install
 
-    Download the repository
+    Download the repository.
 
 ### Usage
 
-    In any browser, open the index.html file
+    In any browser, open the index.html file.
 
-## Authors
+## :busts_in_silhouette: Authors
 
 👤 **Author1**
 
@@ -36,13 +38,20 @@
 - Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
 - Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
 
+👤 **Author2**
+
+- Gmail: [Gabriel Hilarion](mailto:gabrielhilarion@gmail.com)
+- Github: [@gabrie-lHilarion](https://github.com/gabrie-lHilarion)
+- Twitter: [@gabrielDeman](https://twitter.com/gabrielDeman)
+- Linkedin: [Gabriel Hilarion](https://www.linkedin.com/in/gabrielhilarion/)
+
 ## 🤝 Contributing
 
     Contributions, issues and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues).
 
-## Show your support
+## :star2: Show your support
 
     Give a ⭐️ if you like this project!
 
